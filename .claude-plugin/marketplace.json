@@ -1,17 +1,33 @@
 {
   "name": "hedingerm",
-  "owner": { "name": "Manuel Hedinger" },
-  "metadata": { "description": "Claude Code plugins and mods by Manuel Hedinger" },
+  "owner": {
+    "name": "Manuel Hedinger"
+  },
+  "metadata": {
+    "description": "Claude Code plugins and mods by Manuel Hedinger"
+  },
   "plugins": [
     {
       "name": "image-preview",
-      "source": { "source": "url", "url": "https://github.com/hedingerm/image-preview.git" },
+      "source": {
+        "source": "url",
+        "url": "https://github.com/hedingerm/image-preview.git"
+      },
       "description": "Inline image previews in the terminal (Ghostty, kitty): under every image Claude reads, and on demand with /img",
-      "version": "0.2.0",
-      "author": { "name": "Manuel Hedinger" },
+      "version": "0.2.1",
+      "author": {
+        "name": "Manuel Hedinger"
+      },
       "homepage": "https://github.com/hedingerm/image-preview",
       "category": "productivity",
-      "keywords": ["images", "preview", "ghostty", "kitty", "terminal", "mod"]
+      "keywords": [
+        "images",
+        "preview",
+        "ghostty",
+        "kitty",
+        "terminal",
+        "mod"
+      ]
     }
   ]
 }
